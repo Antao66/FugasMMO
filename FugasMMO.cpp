@@ -12,5 +12,13 @@ using namespace std;
 
 int main()
 {
+	srand(time_t(NULL));
 
+	PlayerManager players;
+	HeroManager heroes;
+	InitializeUnits(players, heroes);
+	GameManager game_manager(players, heroes);
+	game_manager.PerformGameSession(players);
+
+	return 0;
 }
