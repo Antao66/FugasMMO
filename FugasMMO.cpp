@@ -1,4 +1,3 @@
-﻿//Fugas Intermediate Project 
 #include <iostream>
 #include <ctime>
 
